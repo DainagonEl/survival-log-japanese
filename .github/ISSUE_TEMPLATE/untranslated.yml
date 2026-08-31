@@ -1,0 +1,40 @@
+name: 未翻訳報告
+description: 英語のまま表示されている箇所を報告します
+title: "[Untranslated] "
+labels:
+  - untranslated
+body:
+  - type: input
+    id: game_version
+    attributes:
+      label: Survival Log バージョン
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: 日本語化MOD バージョン
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 未翻訳箇所
+      description: メニュー名、アイテム名、クエスト名など
+    validations:
+      required: true
+
+  - type: textarea
+    id: original
+    attributes:
+      label: 表示されている英語
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足
+      description: スクリーンショットがある場合は添付してください。

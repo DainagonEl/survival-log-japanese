@@ -1,0 +1,31 @@
+name: 翻訳改善提案
+description: 翻訳表現の改善を提案します
+title: "[Translation] "
+labels:
+  - translation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 現在の翻訳
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 提案する翻訳
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 提案理由

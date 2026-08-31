@@ -1,0 +1,63 @@
+name: 不具合報告
+description: 日本語化MODの動作に関する不具合を報告します
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        不具合報告ありがとうございます。
+        確認に必要な情報を入力してください。
+
+  - type: input
+    id: game_version
+    attributes:
+      label: Survival Log バージョン
+      placeholder: "例: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: 日本語化MOD バージョン
+      placeholder: "例: v0.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows 11
+        - Windows 10
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 発生している問題
+      description: どのような問題が発生しているか記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足
+      description: エラー内容やスクリーンショットなどがあれば記載してください。
