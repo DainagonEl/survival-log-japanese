@@ -38,10 +38,18 @@ body:
       required: true
 
   - type: textarea
-    id: problem
+    id: expected
     attributes:
-      label: 発生している問題
-      description: どのような問題が発生しているか記載してください。
+      label: 期待した動作
+      description: 本来どのようになると考えていたか記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 画面表示やエラーなど、実際に起きたことを記載してください。
     validations:
       required: true
 
@@ -57,7 +65,17 @@ body:
       required: true
 
   - type: textarea
-    id: additional
+    id: logs
     attributes:
-      label: 補足
-      description: エラー内容やスクリーンショットなどがあれば記載してください。
+      label: ログ・スクリーンショット
+      description: 個人情報や認証情報が含まれていないことを確認して添付してください。
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 確認事項
+      options:
+        - label: 対応ゲーム版と既知の問題を確認しました
+          required: true
+        - label: 同じ内容のIssueがないか確認しました
+          required: true

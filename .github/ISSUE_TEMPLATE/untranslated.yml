@@ -36,5 +36,13 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: 補足
-      description: スクリーンショットがある場合は添付してください。
+      label: スクリーンショット・補足
+      description: 表示された画面と前後の状況が分かる情報を添付してください。
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 確認事項
+      options:
+        - label: 同じ内容のIssueがないか確認しました
+          required: true

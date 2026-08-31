@@ -5,11 +5,31 @@ labels:
   - translation
 body:
   - type: input
+    id: game_version
+    attributes:
+      label: Survival Log バージョン
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: 日本語化MOD バージョン
+    validations:
+      required: true
+
+  - type: input
     id: location
     attributes:
       label: 該当箇所
     validations:
       required: true
+
+  - type: textarea
+    id: original
+    attributes:
+      label: 該当する英語
+      description: 確認できる場合に記載してください。
 
   - type: textarea
     id: current
@@ -29,3 +49,9 @@ body:
     id: reason
     attributes:
       label: 提案理由
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: スクリーンショット・補足
+      description: 画面の文脈が分かる画像があれば添付してください。
