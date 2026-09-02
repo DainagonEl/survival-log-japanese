@@ -7,14 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        不具合報告ありがとうございます。
         確認に必要な情報を入力してください。
 
   - type: input
     id: game_version
     attributes:
       label: Survival Log バージョン
-      placeholder: "例: 1.0.0"
+      placeholder: "例: 1.0.15369"
     validations:
       required: true
 
@@ -22,7 +21,7 @@ body:
     id: mod_version
     attributes:
       label: 日本語化MOD バージョン
-      placeholder: "例: v0.1.0"
+      placeholder: "例: v1.0.0-beta.1"
     validations:
       required: true
 
@@ -41,7 +40,7 @@ body:
     id: expected
     attributes:
       label: 期待した動作
-      description: 本来どのようになると考えていたか記載してください。
+      description: 本来どうなるはずだったかを記載してください。
     validations:
       required: true
 
@@ -49,7 +48,7 @@ body:
     id: actual
     attributes:
       label: 実際の動作
-      description: 画面表示やエラーなど、実際に起きたことを記載してください。
+      description: 表示やエラーなど、実際に起きたことを記載してください。
     validations:
       required: true
 
