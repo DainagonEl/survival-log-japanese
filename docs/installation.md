@@ -29,6 +29,7 @@ D:\SteamLibrary\steamapps\common\Survival Log
 ## 初めて導入する
 
 1. [GitHub Releases](https://github.com/DainagonEl/survival-log-japanese/releases)からZIPをダウンロードして展開します。
+   配布物にはMOD独自ライセンス、第三者表記、Noto Sans JPのOFL全文が含まれます。導入前にご確認ください。
 2. ゲームを終了します。BepInExのコンソール画面も閉じてください。
 3. 展開したフォルダーでPowerShellを開きます。
 4. まず事前確認を実行します。ここではゲームファイルを変更しません。

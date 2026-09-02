@@ -1,8 +1,43 @@
-Copyright (c) 2026
+Survival Log 日本語化MOD 利用条件
 
-All rights reserved.
+Copyright (c) 2026 DainagonEl. All rights reserved.
 
-This license applies only to original materials created for this project.
+1. 対象
 
-All rights related to Survival Log, including game assets, text, trademarks,
-and other copyrighted materials, belong to their respective owners.
+この利用条件は、本プロジェクトが独自に作成し、かつ許諾権限を有する
+プログラム、インストーラー、文書その他の部分に適用されます。
+
+2. 個人利用
+
+正規に入手した『Survival Log』で使用する目的に限り、本MODをダウンロード、
+インストールし、個人的かつ非商用で利用できます。
+
+3. 禁止事項
+
+事前の書面による許可なく、次の行為を行うことはできません。
+
+- 本MODまたはその一部の再配布、転載、再ホスト、販売
+- 他のMOD、パッケージ、インストーラーへの組み込み
+- プロジェクトまたはゲームの権利者による公式配布であるとの表示
+- 違法に入手したゲーム、アクセス制御の回避、チートその他の不正用途への利用
+
+4. 第三者の権利
+
+『Survival Log』のゲーム本体、原文、日本語訳などの二次的な素材、名称、商標、
+画像、音声その他の権利は、本プロジェクトが権限を有する範囲を除き、
+Midnight Workshop、Lilith Gamesその他の各権利者に帰属します。本利用条件は、
+それらの権利を利用者へ許諾するものではありません。
+
+同梱するNoto Sans JPには本利用条件ではなく、SIL Open Font License 1.1が
+適用されます。詳細は配布ZIPのlicenses/NotoSansJP-OFL.txtを参照してください。
+
+5. 非公式性と無保証
+
+本MODは非公式の有志制作物であり、『Survival Log』の開発元・販売元による
+承認、保証、サポートを示すものではありません。
+
+本MODは現状有姿で提供されます。法令上免責できない場合を除き、作者は本MODの
+利用または利用不能から生じたセーブデータの損失、ゲームの不具合、その他の損害に
+ついて責任を負いません。
+
+第三者資材と外部依存の詳細はTHIRD_PARTY_NOTICES.mdを参照してください。
